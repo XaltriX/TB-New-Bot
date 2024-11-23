@@ -1,0 +1,7 @@
+name: my-telegram-bot # Replace with your application name
+
+services:
+  - name: bot-service
+    build:
+      type: docker
+      dockerfile_path: ./Dockerfile # Ensure you have a Dockerfile in your project root
