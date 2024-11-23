@@ -1,7 +1,8 @@
-name: my-telegram-bot # Replace with your application name
+name: my-telegram-bot
 
 services:
   - name: bot-service
     build:
       type: docker
-      dockerfile_path: ./Dockerfile # Ensure you have a Dockerfile in your project root
+      dockerfile_path: ./Dockerfile
+    command: "./start.sh" # This tells Koyeb to run the start.sh script
