@@ -3,7 +3,7 @@ import os
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rohitplayer87089:rohit870@cluster0.4wt927p.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "neon1")
+DB_NAME = os.environ.get("DATABASE_NAME", "neon11")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
