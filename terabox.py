@@ -19,7 +19,7 @@ from shared import API, URL, check_token, get_token, verify_user, check_verifica
 
 # constants.py
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TutorialsNG/5") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "TeraBox_Download3r_Bot") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "TeraBoxDownload3rBot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 
 
